@@ -1,0 +1,35 @@
+@media only screen and ( max-width: 800px ){
+
+	#current {
+		padding: 25px 0;
+	}
+
+	/*table styles goes here*/
+
+	#details tr {
+		height: 30px;
+	}
+
+	#details tr td:nth-child(1){
+		text-align: left;
+	}
+
+	#details tr td:nth-child(2){
+		text-align: right;
+	}
+
+	/*change styles goes here*/
+	#change form fieldset {
+		padding: 5px 0;
+	}
+
+	#change form input {
+		width: 100%;
+		padding: 5px 10px;
+	}
+
+	#change form input[type="submit"] {
+		padding: 15px 0;
+	}
+
+}

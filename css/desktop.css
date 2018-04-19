@@ -1,0 +1,28 @@
+@media only screen and ( min-width: 801px ){
+
+	#whether {
+		width: 600px;
+		margin: 0 auto;
+	}
+	
+	#details tr {
+		height: 40px;
+		text-align: center;
+	}
+	
+	#current {
+		padding: 40px 0;
+	}
+	
+	#change form fieldset {
+		margin: 10px 0;
+	}
+	
+	#change form input {
+		display: block;
+		width: 75%;
+		padding: 10px 25px;
+		margin: 0 auto;
+	}
+
+}

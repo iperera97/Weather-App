@@ -1,0 +1,49 @@
+/*common styles goes here*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background-color: #97C0B7;
+	color: #fff;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+
+.wrapper {
+	padding: 0 10%;
+}
+
+#current, #details, .errors {
+	width: 100%;
+}
+
+form fieldset, 
+#change form input {
+	border: none;
+}
+
+#details {
+	border-collapse: collapse;
+}
+
+.errors {
+	background-color: #41848F;
+}
+
+.errors p {
+	text-align: center;
+	margin: 10px 0;
+}
+
+.errors.show_errors {
+	display: block;
+	padding: 25px 0;
+}
+
+.errors.hide_errors {
+	display: none;
+}
